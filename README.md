@@ -104,3 +104,59 @@ mit dem .
 1. Open the file.
 1. Find the following code block in line 21
 `test`
+
+### Horizontale Linien
+- dafür kann man 3 oder mehr Sternchen (*), Minuszeichen (-) oder Unterstrich(_)
+
+***
+___
+---
+
+
+### Links
+- um einen Lin zu setzen muss man den Text in eckigen Klammern schreiben.
+
+     My favorite search enging is [Duck Duck Go](https://duckduckgo.com)
+
+- Man kann auch einen Titel zum Link Hinzufügen.
+
+     My favorite search enging is [Duck Duck Go](https://duckduckgo.com)"The best search enging for privacy"
+
+- URL und E-Mail Adresse
+    dafür muss man die Dreiecke nehmen <>
+    <https://www.markdownguide.org>
+    <fake@example.com>
+
+- Formatierung von Links
+I love supporting the **[EFF](https://eff.org)**.
+This is the *[Markdown Guide](https://www.markdownguide.org.de)*.
+See the section on[`code`](#code).
+
+- Referenzen
+- [hobbit-hol][1]
+
+- [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+- [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit Lifestyles"
+- [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle `Hobbit Lifestyles`
+- [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit Lifestyles)
+- [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit Lifestyles"
+- [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> `Hobbit Lifestyles`
+- [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit Lifestyles)
+
+Beispiel:
+In a hole in the ground there lived a hobbit. Not a nasy, dirty, wet hole, filled with the ends of worms an an oozy smell, nor yet a dry, bare, sandy hole with noting in it to sit down on or to eat: it was a [hobbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles") and that means comfort.
+
+oder
+
+In a hole in the ground there lived a hobbit. Not a nasy, dirty, wet hole, filled with the ends of worms an an oozy smell, nor yet a dry, bare, sandy hole with noting in it to sit down on or to eat: it was a [hobbit-hole][1] and that means comfort.
+
+[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+
+### Bilder
+- vor dem Bild muss ein Ausrufezeichen stehen !, gefolgt vom ALternativtext und dem URL oder Pfad in Klammern.
+
+![Kleid 13](/C:\Users\Kati\Desktop\Kleid\Stoff.PNG)
+[![Logo Dataport]](https://de.wikipedia.org/wiki/Dataport#/media/Datei:Dataport_Logo.svg)
+
+### Ausbleden
+\* without the backslash, this would be a bullet in an unordered list
